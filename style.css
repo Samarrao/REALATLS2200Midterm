@@ -1,0 +1,105 @@
+
+
+body{
+  background-image: url("Assets/backicon.png");
+  background-repeat: repeat;
+}
+
+
+#giantdiv{
+  background-color: red;
+  height: 100vh;
+  width: 75vw;
+  overflow: hidden;
+
+  margin-left: 11%;
+  margin-left: 12.6%;
+  background-image: linear-gradient(#7cdbfd, #03a7ff);
+  border-radius: 10px;
+  border: solid 3px black;
+}
+
+
+
+#title h1{
+  text-align: center;
+  font-family: 'Fruktur';
+  font-size: 5vw;
+
+}
+
+#flavortext h2{
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-size: 30px;
+}
+#flavortext h3{
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Josefin Sans';
+
+}
+
+
+
+
+
+#tabs, #items{
+  display: flex;
+  margin: 6vh 3vw 0 3vw;
+}
+    #tabs{
+      text-align: center;
+    }
+
+    #items h3{
+      font-size: 25px;
+    }
+
+
+#items{
+  display:flex;
+  margin-top: 0px !important;
+
+}
+.daytab{
+  flex-grow: 1;
+  background-color: #747474;
+  border: 1px solid #aaa;
+}
+
+#image, .menu{
+  flex-grow: 1;
+  width: auto;
+  background-color: #ffdb61;
+  border: solid 1px #aaa;
+}
+
+#tuesdaymenu, #wednesdaymenu, #thursdaymenu, #fridaymenu, #saturdaymenu, #sundaymenu{
+  display: none;
+}
+
+
+.active{
+  background-color: #ffdb61;
+}
+
+img{
+
+  min-height: 290px;
+  min-width: 270px;
+  max-height: 290px;
+  max-width: 270px;
+  display: block;
+  margin: auto;
+  object-position: 0% 40%;
+
+  width: 150px;
+  height: 170px;
+  margin-left: 7vw;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+
+}
